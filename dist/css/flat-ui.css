@@ -4150,6 +4150,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   z-index: 1030;
   border-radius: 0;
   height: 10%;
+  width: 100%;
 }
 .navbar-fixed-top {
   border-width: 0;
