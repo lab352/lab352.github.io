@@ -4149,7 +4149,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .navbar-fixed-bottom {
   z-index: 1030;
   border-radius: 0;
-  height: 10%;
+  height: 5%;
   width: 100%;
 }
 .navbar-fixed-top {
@@ -4160,7 +4160,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-width: 0;
 }
 .navbar-brand {
-  font-size: 24px;
+  font-size: 150%;
   line-height: 1.042;
   height: 53px;
   font-weight: 700;
@@ -4217,7 +4217,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin: 0;
 }
 .navbar-nav > li > a {
-  font-size: 16px;
+  font-size: 100%;
   padding: 15px 21px;
   line-height: 23px;
   font-weight: 700;
