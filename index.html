@@ -3,7 +3,6 @@
   <head>
     <style>
       body {
-        min-height: 2000px;
         padding-top: 100px;
         padding-left: 25px;
         padding-right: 25px;
@@ -57,22 +56,39 @@
       </div>
     </div>
 
+<!-- <div class = "paragraphs clearfix">
+    <img class="pull-left" src="img/headshot.png"/>
     <div class="container">
-      <p>I am a junior studying computer science at Cornell University with interests primarily in Systems and Networking. I am researching Resource Disaggregation with professor Rachit Agarwal</p>
+      <p>I am a junior studying computer science at Cornell University with interests primarily in Systems, Networking and Machine Learning. I am researching Resource Disaggregation with professor Rachit Agarwal.</p>
+      <p>For the summer of 2018 I will be at Microsoft Research in New York City working with Siddartha Sen.</p>
+      <p>For the summer of 2017 I worked at Electronic Arts as a project management intern in the security department of IT.</p>
+      <p>Accomplishments: Global vendor relations development and negotiations resulting in a $20,000 savings in forecasted budget. Gave weekly updates to CIO level staff surrounding the health of the department’s projects. Improved resource management workflow to enable a collaborative and seamless experience.</p>
+<!--
+    <div class="container">
+      <p>For the summer of 2018 I will be at Microsoft Research in New York City working with Siddartha Sen.</p>
     </div> <!-- /container -->
-
-    <footer>
-      <div class="container">
+<!--
+    <div class="container">
+       <p>For the summer of 2017 I worked at Electronic Arts as a project management intern in the security department of IT.</p>
+       <p>Accomplishments: Global vendor relations development and negotiations resulting in a $20,000 savings in forecasted budget. Gave weekly updates to CIO level staff surrounding the health of the department’s projects. Improved resource management workflow to enable a collaborative and seamless experience.</p>
+    </div> <!-- /container </div> -->
+    <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-2">
-
-            <p class="pvl">
-              <iframe src="http://ghbtns.com/github-btn.html?user=lab352&type=follow&count=true" height="20" width="195" frameborder="0" scrolling="0" style="width:195px; height: 20px;" allowTransparency="true"></iframe>
-            </p>
-          </div> <!-- /col-xs-7 -->
+            <div class="col-md-3"><img src="img/headshot.png" class="img-responsive"></div>
+            <div class="col-md-9"><h1></h1>
+              <div class="container_fluid">
+                <p>I am a <b>junior</b> studying computer science at <b>Cornell University</b> with interests primarily in Systems, Networking and Machine Learning. I am researching Resource Disaggregation with professor <b>Rachit Agarwal</b>.</p>
+                <center><img src="img/Cornell.png" width="20%" vspace="10"class="img-responsive"></center>
+              </div>
+              <div class="container_fluid">
+              <p>
+                For the summer of 2018 I will be interning at <b>Microsoft Research</b> in New York City working with <b>Siddartha Sen</b>.</p>
+              </div>
+              <p>For the summer of 2017 I worked at <b>Electronic Arts</b> as a project management intern in the security department of IT.</p>
+              <p>Accomplishments: Global vendor relations development and negotiations resulting in a $20,000 savings in forecasted budget. Gave weekly updates to CIO level staff surrounding the health of the department’s projects. Improved resource management workflow to enable a collaborative and seamless experience.</p>
+            </div>
         </div>
-      </div>
-    </footer>
+    </div>
 
     <script src="dist/js/vendor/jquery.min.js"></script>
     <script src="dist/js/vendor/video.js"></script>
@@ -83,4 +99,18 @@
       videojs.options.flash.swf = "dist/js/vendors/video-js.swf"
     </script>
   </body>
+
+  <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#"><iframe src="http://ghbtns.com/github-btn.html?user=lab352&type=follow&count=true" height="20" width="195" frameborder="0" scrolling="0" style="width:195px; height: 20px;" allowTransparency="true"></iframe></a></li>
+        </div><!--/.nav-collapse-->
+      </div>
+    </div>
 </html>
