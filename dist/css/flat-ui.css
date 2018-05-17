@@ -4453,7 +4453,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 .navbar-default {
-  background-color: #A0b0d8;
+  background-color: #f5f5f5;
 }
 .navbar-default .navbar-brand {
   color: #273c75;
