@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
     <style>
       body {
-        background-color: #ecf0f1 !important;
         padding-top: 100px;
         padding-left: 25px;
         padding-right: 25px;
@@ -23,7 +23,13 @@
         padding-left: 10px;
         padding-right: 10px;
       }
+      hr{
+        height: 5px !important;
+        background-color: #4870DB !important;
+        width: 25%; 
+      }
       #cornell {
+        color: #273c75;  
         background-clip: content-box !important;
         padding-left: 100px;
         padding-right: 100px;
@@ -53,44 +59,65 @@
     <![endif]-->
   </head>
   <body>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-          </button>
-          <a class="navbar-brand" href="#">Lloyd Brown</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">Research</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
 
-    <div class="container-fluid" background-color="#ecf0f1" height="100vh" width="100%">
+      <!-- Navigation -->
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://disaggregation.cs.cornell.edu/people/lloydbrown/#page-top">Lloyd Brown</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="http://disaggregation.cs.cornell.edu/people/lloydbrown/#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="http://lab352.github.io/#Research">Research</a>
+                    </li>
+                    <li>
+                        <a href="http://lab352.github.io/#Projects">Projects</a>
+                    <li>
+                        <a href="http://lab352.github.io/#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            </div>
+          <!-- /.container-fluid -->
+     </nav>
+
+    <div class="container-fluid">
             <div class="col-md-3"><img src="img/headshot.png" height="500vh"></div>
             <div class="col-md-9" >
               <div id="cornell">
-                <h5 align="center"> Cornell University </h5>
+                <h3 align="center"> Cornell University </h3>
                 <p>I am a <b>junior</b> studying computer science at <b>Cornell University</b> with interests primarily in Systems, Networking and Machine Learning. I am researching Resource Disaggregation with professor <b>Rachit Agarwal</b>.</p>
+                <p> Accomplishments: John Mcmullen Dean Scholar, Computing Research Association CREU Grant 2017, Intel Corporate Award, TAPIA 2017 Scholarship Recipient 
                 <!-- <center><img src="img/Cornell.png" width="20%" vspace="10" class="img-responsive"></center> -->
               </div>
+              <hr>
               <div id="cornell">
-                <h5 align="center"> Microsoft </h5>
-              <p>
-                For the summer of 2018 I will be interning at <b>Microsoft Research</b> in New York City with <b>Siddartha Sen</b>.</p>
+                <h3 align="center"> Microsoft </h3>
+                    <p>
+                        For the summer of 2018 I will be interning at <b>Microsoft Research</b> in New York City with <b>Siddartha Sen</b>.
+                    </p>
               </div>
+              <hr>
               <div id="cornell">
-              <h5 align="center"> Electronic Arts </h5>
-              <p>For the summer of 2017 I worked at <b>Electronic Arts</b> as a project management intern in the security department of IT.</p>
-              <p>Accomplishments: Global vendor relations development and negotiations resulting in a $20,000 savings in forecasted budget. Gave weekly updates to CIO level staff surrounding the health of the department’s projects. Improved resource management workflow to enable a collaborative and seamless experience.</p>
+                <h3 align="center"> Electronic Arts </h3>
+                    <p>For the summer of 2017 I worked at <b>Electronic Arts</b> as a project management intern in the security department of IT.</p>
+                    <p>Accomplishments: Global vendor relations development and negotiations resulting in a $20,000 savings in forecasted budget. Gave weekly updates to CIO level staff surrounding the health of the department’s projects. Improved resource management workflow to enable a collaborative and seamless experience.</p>
               </div>
+              <hr>
             </div>
     </div>
-
     <script src="dist/js/vendor/jquery.min.js"></script>
     <script src="dist/js/vendor/video.js"></script>
     <script src="dist/js/flat-ui.min.js"></script>

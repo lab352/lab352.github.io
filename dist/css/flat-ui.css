@@ -4147,6 +4147,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
+  background-color: #050505;
   z-index: 1030;
   border-radius: 0;
   height: 5%;
@@ -4160,7 +4161,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-width: 0;
 }
 .navbar-brand {
-  font-size: 3.5vh;
+  font-size: 24px;
   line-height: 1.042;
   height: 53px;
   font-weight: 700;
@@ -4452,10 +4453,10 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 .navbar-default {
-  background-color: #1e272e;
+  background-color: #A0b0d8;
 }
 .navbar-default .navbar-brand {
-  color: #d2dae2;
+  color: #273c75;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4479,7 +4480,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #d2dae2;
+  color: #273c75;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
