@@ -5,30 +5,25 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
   <style>
     body {
-      padding-top: 100px;
-      padding-left: 25px;
-      padding-right: 25px;
-      min-height: 750px;
+      padding-top: 75px;
+	padding-bottom:75px;
+      min-height: auto;
     }
 
     h1 {
       text-align: center;
     }
-
     h5 {
       text-align: center;
-      padding-top: 3px;
     }
-
     footer {
       padding-top: 1000px;
     }
-
     p {
-      padding-left: 10px;
-      padding-right: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center !important;
     }
-
     hr {
       height: 2px !important;
       background-color: #4870DB !important;
@@ -38,10 +33,13 @@
     #cornell {
       color: #273c75;
       background-clip: content-box !important;
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 0px;
+      padding-right: 0px;
       background-color: #ffffff;
-      border-radius: 15px;
+      background-size: 100% auto;
+		box-shadow: 0px 0px 1px 0.05px #888888;
     }
   </style>
   <meta charset="utf-8">
@@ -86,10 +84,10 @@
             <a href="https://lab352.github.io"></a>
           </li>
           <li>
-            <a href="https://lab352.github.io/LloydBrownResume.pdf">Resume</a>
+            <a href="https://lab352.github.io/LloydBrownCV.pdf">Resume</a>
           </li>
           <li>
-            <a href="http://lab352.github.io/#Research">Research</a>
+            <a href="http://lab352.github.io/Research.html">Research</a>
           </li>
           <li>
             <a href="http://lab352.github.io/Projects.html">Projects</a>
@@ -104,32 +102,31 @@
   </nav>
   <ion-header-bar>
   <div class="container-fluid">
-    <div class="col-md-3">
-      <img src="img/headshot.png" height="500vh">
-    </div>
-    <div class="col-md-9">
-      <div id="cornell">
+      <div class="text-center">
+      	<img src="img/headshot.png" align="middle" height="400vh" vspace="20">
+      </div>
+      <div id="cornell" style="background-color:#f9f9f9">
         <h3 align="center"> Cornell University </h3>
         <p>I am a
-          <b>junior</b> studying computer science at
-          <b>Cornell University</b> with interests primarily in Systems, Networking and Machine Learning. I am researching Resource
-          Disaggregation with professor
-          <b>Rachit Agarwal</b>.</p>
+          <b>senior</b> studying computer science at
+          <b>Cornell University</b> with interests primarily in Systems, Networking and Machine Learning.
+	  While at Cornell I have become heavily involved in cutting-edge Systems and Networking research with the guidance of Professor <b>Rachit Agarwal</b>. I have taken two PhD courses in these areas
+	  and have researched relevant topics that have allowed me to apply this knowledge.</p>
+
+	<p> I am currently applying to various PhD programs in Computer Science with the hope of improving my research skills.</p>
         <p> Accomplishments: John Mcmullen Dean Scholar, Computing Research Association CREU Grant 2017, Intel Corporate Award,
           TAPIA 2017 Scholarship Recipient
           <!-- <center><img src="img/Cornell.png" width="20%" vspace="10" class="img-responsive"></center> -->
       </div>
-      <hr>
       <div id="cornell">
-        <h3 align="center"> Microsoft </h3>
+        <h3 align="center"> Microsoft Research</h3>
         <p>
-          For the summer of 2018 I will be interning at
+          During the summer of 2018 I interned at
           <b>Microsoft Research</b> in New York City with
-          <b>Siddartha Sen</b>.
+          <b>Siddhartha Sen</b>. There I worked on an interesting project at the intersection of Databases and Data Structures.
         </p>
       </div>
-      <hr>
-      <div id="cornell">
+      <div id="cornell"style="background-color:#f9f9f9">
         <h3 align="center"> Electronic Arts </h3>
         <p>For the summer of 2017 I worked at
           <b>Electronic Arts</b> as a project management intern in the security department of IT.</p>
@@ -137,8 +134,6 @@
           budget. Gave weekly updates to CIO level staff surrounding the health of the department’s projects. Improved resource
           management workflow to enable a collaborative and seamless experience.</p>
       </div>
-      <hr>
-    </div>
   </div>
   <script src="dist/js/vendor/jquery.min.js"></script>
   <script src="dist/js/vendor/video.js"></script>
