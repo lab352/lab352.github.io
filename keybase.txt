@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lloydbrown
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lloydabrown.com
+  * I am lloydbrown (https://keybase.io/lloydbrown) on keybase.
+  * I have a public key ASB6teKs_V7C9DeDTcEJSO5llWs7WR7SAKXrEoC7tTDeYQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207ab5e2acfd5ec2f437834dc10948ee65956b3b591ed200a5eb1280bbb530de610a",
+      "host": "keybase.io",
+      "kid": "01207ab5e2acfd5ec2f437834dc10948ee65956b3b591ed200a5eb1280bbb530de610a",
+      "uid": "f5d1779a34383e8ba2cb6a77e3872919",
+      "username": "lloydbrown"
+    },
+    "merkle_root": {
+      "ctime": 1574381370,
+      "hash": "6e59832cac3f2ae5b5536fa8fb739f5645e7d2e7bc50f8c63327cadd2c1919c3983df17acbb5a97f3235cf905e798561566eebb5f27519732f41527c58253b91",
+      "hash_meta": "c884c3b13154050ee5985b37e36dae31673ad593c97ca235c9254587cf803ee0",
+      "seqno": 10469033
+    },
+    "service": {
+      "entropy": "pH69pv3wmHzJtARG9wNpYWrb",
+      "hostname": "lloydabrown.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1574381377,
+  "expire_in": 504576000,
+  "prev": "71882a6bc646133e57abf7386b2458369f7f5a69d3961dc631e015e5f0fa2095",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgerXirP1ewvQ3g03BCUjuZZVrO1ke0gCl6xKAu7Uw3mEKp3BheWxvYWTESpcCB8QgcYgqa8ZGEz5Xq/c4ayRYNp9/WmnTlh3GMeAV5fD6IJXEIGcWXxf+8HFq4+mVkp/qwxgb6euuyTEe20AZ87kZO/fjAgHCo3NpZ8RAlABZKjEB0Fve878wZukYxoq4yTkyxWYH4xUk0DkGh2jf1SSqk55fza7PPhpAecjJaM2NjIdOVUXn02hiPUyPDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMFlJy5bUGs7GeIRDoWkeQM0mBRBF4IJm2SPI3GMkOtFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lloydbrown
+
+==================================================================
