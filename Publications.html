@@ -35,6 +35,11 @@
             width: 25%;
         }
 
+        li {
+            list-style-position: inside;
+            left-margin: 1em;
+        }
+
         #cornell {
             color: #273c75;
             background-clip: content-box !important;
@@ -72,27 +77,28 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="https://lab352.github.io">Lloyd Brown</a>
+                <a class="navbar-brand page-scroll" href="https://lloydabrown.com">Lloyd Brown</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden active">
-                        <a href="https://lab352.github.io"></a>
+                        <a href="https://lloydabrown.com"></a>
                     </li>
                     <li>
-                        <a href="https://lab352.github.io/LloydBrownResume.pdf">Resume</a>
+                        <a href="https://lloydabrown.com/LloydBrownResume.pdf">Resume</a>
                     </li>
                     <li>
-                        <a href="http://lab352.github.io/Publications.html">Publications</a>
-                        <li>
-                            <a href="http://lab352.github.io/Contact.html/">Contact</a>
-                        </li>
+                        <a href="http://lloydabrown.com/Publications.html">Publications</a>
+                    <li>
+                        <a href="http://lloydabrown.com/Contact.html/">Contact</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -100,10 +106,19 @@
         <!-- /.container-fluid -->
     </nav>
     <div class="container-fluid">
-        <div id="cornell">
+        <div id="pubs">
             <h3 align="center"> Publications</h3>
-            <p align="center">Coming soon :)</p>
-            
+            <div id="2020">
+                <h3 align="center"> 2020 </h3>
+                <ul align="center">
+                    <li><b>[SECURITY] <a href="http://lloydabrown.com/papers/pancake.pdf">PANCAKE: Frequency Smoothing
+                                for Encrypted Data Stores</a></b>, Grubbs, P.,
+                        Khandelwal, A.,
+                        Lacharité, M., <b>Brown, L.</b>, Li, L., Agarwal R.,
+                        Ristenpart, T. </li>
+                </ul>
+            </div>
+
         </div>
         <script src="dist/js/vendor/jquery.min.js"></script>
         <script src="dist/js/vendor/video.js"></script>
@@ -126,8 +141,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active">
                     <a href="#">
-                        <iframe src="http://ghbtns.com/github-btn.html?user=lab352&type=follow&count=true" height="20" width="195" frameborder="0"
-                            scrolling="0" style="width:195px; height: 20px;" allowTransparency="true"></iframe>
+                        <iframe src="http://ghbtns.com/github-btn.html?user=lab352&type=follow&count=true" height="20"
+                            width="195" frameborder="0" scrolling="0" style="width:195px; height: 20px;"
+                            allowTransparency="true"></iframe>
                     </a>
                 </li>
         </div>
